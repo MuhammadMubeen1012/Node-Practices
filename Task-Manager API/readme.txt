@@ -2,7 +2,7 @@
 2. Persist data to the cloud 
 3. Applying CRUD operation to the data 
 
-5 routes 
+4. 5 routes 
 app.get('/api/v1/tasks')
 app.get('/api/v1/tasks/:id')
 app.post('/api/v1/tasks/:id')
@@ -11,4 +11,7 @@ app.patch('/api/v1/tasks/:id')
 
 v1 is defining version. For any future update you 
 may write v2 and direct anyone to that routes
+
+6. Use MongoDB ATLAS for cloud storage and interact with data
+
 
