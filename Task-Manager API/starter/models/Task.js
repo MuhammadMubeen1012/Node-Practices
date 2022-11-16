@@ -8,7 +8,10 @@ const TaskSchema = new mongoose.Schema({
         trim: true, 
         maxlength: [20, 'Name can not be more than 20 characters ...']
     }, 
-    completed: Boolean 
+    completed: {
+        type: Boolean, 
+        default: false
+    }
 })
 
 //export model, so we can use it in the controller 
